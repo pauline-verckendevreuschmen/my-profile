@@ -1,0 +1,132 @@
+body {
+  background: #FFDBEE;
+  color: white;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: 'Arial Black', Gadget, sans-serif;
+}
+h1 {
+  color: #F9CAE7;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+h2 {
+  color: #FFDBEE;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+  outline: 5px dotted green;
+  outline-style: solid;
+  outline-color: #FFDBEE;
+  outline-width: 2px
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #FFDBEE;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #A3397F;
+}
+
+#profile {
+  border-radius: 50%;
+  box-shadow: 5px 5px 3px black
+}
+
+.img-circle {
+  box-shadow: 5px 5px 3px black
+}
+
+ul {
+  list-style: square inside url("sqpurple.gif");
+  margin-top: 20px;
+}
+
+
+
+.btn-signup {
+  size
+}
+p {
+  margin: 5px;
+  padding: 5px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background-color: #A05982;
+  padding: 40px;
+  box-shadow: 5px 10px 30px black;
+  border-radius: 6px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.btn-pink {
+  background-color: #A3397F;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-pink:hover {
+  background-color: pink;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding-left: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #F9CAE7;
+}
+
+.list-inline2 {
+  list-style: none;
+}
+.list-inline2 li {
+  display: inline;
+  padding: 10px;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+
+
